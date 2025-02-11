@@ -3,6 +3,7 @@ PiClock
 //Fixed LED's are not yet commented out....
 //Indentation issues when moving to Raspberry
 
+
 elif hour < 12:
         /**
 	*12am
