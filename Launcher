@@ -1,0 +1,22 @@
+So perhaps you're here because the Pi Clock broke.
+This file is for the launcher.sh file
+(Q) What is launcher.sh?
+(A) It is the sh file that makes the python script run on powering the pi.
+
+(Q) How do I know if it works?
+(A) Reboot the Pi and if the clock works, it works
+
+(Q) How do I turn launcher off?
+(A) You don't, but you can delete it.
+
+(Q) How do I restore it?
+(A) Sudo a nano file called launcher.sh or simply calling the phrase within the quotes "nano launcher.sh"
+
+(Q) I restored it, but it still doesn't work
+(A) Not a question but try "chmod 755 launcher.sh"
+
+(Q) How do I test it?
+(A) type "sh launcher.sh" into the terminal
+
+(Q) How do I see the logs?
+(A) Type "cd logs" or "cat cronlog" into the terminal
