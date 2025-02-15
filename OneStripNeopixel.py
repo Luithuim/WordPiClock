@@ -42,7 +42,7 @@ while (x<1):
     pixels1[31] = (0, 20, 255)
     time.sleep(1)
     #led printout decision
-    if hour > 12:
+    if hour >= 12:
         disphour -= 12
         '''
         pixels1[0] = (0, 0, 0)
