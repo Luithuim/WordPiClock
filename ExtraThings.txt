@@ -1,0 +1,2 @@
+1) Have the Piclock change colors every day (Do Not use white, the 5v cannot handle lighting all 31 leds in white)
+2) Have it change colors in real time
