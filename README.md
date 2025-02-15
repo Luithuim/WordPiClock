@@ -3,7 +3,7 @@
 *
 The Original File containing the original code belongs in this repository.
 *
-This is for the WordPiClock in IEEE of UVM
+This is for the WordPiClock in IEEE of UVM 
 *
 DO NOT edit this code or commit any changes to the "OneStripNeopixel.py" here
 *
