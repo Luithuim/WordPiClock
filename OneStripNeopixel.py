@@ -41,43 +41,64 @@ while (x<1):
     pixels1[30] = (0, 20, 255)
     pixels1[31] = (0, 20, 255)
     time.sleep(1)
+
+    if((pixels1[12] and pixels1[13] == (0,20,255)) or (pixels1[12] and pixels1[14] == (0,20,255)) or (pixels1[12] and pixels1[15] == (0,20,255)) or
+       (pixels1[12] and pixels1[16] == (0,20,255)) or (pixels1[12] and pixels1[18] == (0,20,255)) or (pixels1[12] and pixels1[19] == (0,20,255)) or
+       (pixels1[12] and pixels1[21] == (0,20,255)) or (pixels1[12] and pixels1[22] == (0,20,255)) or (pixels1[12] and pixels1[24] == (0,20,255)) or
+       (pixels1[12] and pixels1[25] == (0,20,255)) or (pixels1[12] and pixels1[29] == (0,20,255)) or (pixels1[13] and pixels1[14] == (0,20,255)) or
+       (pixels1[13] and pixels1[15] == (0,20,255)) or (pixels1[13] and pixels1[16] == (0,20,255)) or (pixels1[13] and pixels1[18] == (0,20,255)) or
+       (pixels1[13] and pixels1[19] == (0,20,255)) or (pixels1[13] and pixels1[21] == (0,20,255)) or (pixels1[13] and pixels1[22] == (0,20,255)) or
+       (pixels1[13] and pixels1[24] == (0,20,255)) or (pixels1[13] and pixels1[25] == (0,20,255)) or (pixels1[13] and pixels1[29] == (0,20,255)) or
+       (pixels1[14] and pixels1[15] == (0,20,255)) or (pixels1[14] and pixels1[16] == (0,20,255)) or (pixels1[14] and pixels1[18] == (0,20,255)) or
+       (pixels1[14] and pixels1[19] == (0,20,255)) or (pixels1[14] and pixels1[21] == (0,20,255)) or (pixels1[14] and pixels1[22] == (0,20,255)) or
+       (pixels1[14] and pixels1[24] == (0,20,255)) or (pixels1[14] and pixels1[25] == (0,20,255)) or (pixels1[15] and pixels1[16] == (0,20,255)) or
+       (pixels1[15] and pixels1[18] == (0,20,255)) or (pixels1[15] and pixels1[19] == (0,20,255)) or (pixels1[15] and pixels1[21] == (0,20,255)) or
+       (pixels1[15] and pixels1[22] == (0,20,255)) or (pixels1[15] and pixels1[24] == (0,20,255)) or (pixels1[15] and pixels1[25] == (0,20,255)) or
+       (pixels1[15] and pixels1[29] == (0,20,255)) or (pixels1[16] and pixels1[18] == (0,20,255)) or (pixels1[16] and pixels1[19] == (0,20,255)) or
+       (pixels1[16] and pixels1[21] == (0,20,255)) or (pixels1[16] and pixels1[22] == (0,20,255)) or (pixels1[16] and pixels1[24] == (0,20,255)) or
+       (pixels1[16] and pixels1[25] == (0,20,255)) or (pixels1[16] and pixels1[29] == (0,20,255)) or (pixels1[18] and pixels1[19] == (0,20,255)) or
+       (pixels1[18] and pixels1[21] == (0,20,255)) or (pixels1[18] and pixels1[22] == (0,20,255)) or (pixels1[18] and pixels1[24] == (0,20,255)) or
+       (pixels1[18] and pixels1[25] == (0,20,255)) or (pixels1[18] and pixels1[29] == (0,20,255)) or (pixels1[19] and pixels1[21] == (0,20,255)) or
+       (pixels1[19] and pixels1[22] == (0,20,255)) or (pixels1[19] and pixels1[24] == (0,20,255)) or (pixels1[19] and pixels1[25] == (0,20,255)) or
+       (pixels1[19] and pixels1[29] == (0,20,255)) or (pixels1[21] and pixels1[22] == (0,20,255)) or (pixels1[21] and pixels1[24] == (0,20,255)) or
+       (pixels1[21] and pixels1[25] == (0,20,255)) or (pixels1[21] and pixels1[29] == (0,20,255)) or (pixels1[22] and pixels1[24] == (0,20,255)) or
+       (pixels1[22] and pixels1[25] == (0,20,255)) or (pixels1[22] and pixels1[29] == (0,20,255)) or (pixels1[24] and pixels1[25] == (0,20,255)) or
+       (pixels1[24] and pixels1[29] == (0,20,255)) or (pixels1[25] and pixels1[29] == (0,20,255))):
+        pixels1[1] = (0,0,0)
+        pixels1[2] = (0,0,0)
+        pixels1[3] = (0,0,0)
+        pixels1[4] = (0,0,0)
+        pixels1[5] = (0,0,0)
+        pixels1[6] = (0,0,0)
+        pixels1[7] = (0,0,0)
+        pixels1[8] = (0,0,0)
+        pixels1[9] = (0,0,0)
+        pixels1[10] = (0,0,0)
+        pixels1[11] = (0,0,0)
+        pixels1[12] = (0,0,0)
+        pixels1[13] = (0,0,0)
+        pixels1[14] = (0,0,0)
+        pixels1[15] = (0,0,0)
+        pixels1[16] = (0,0,0)
+        pixels1[17] = (0,0,0)
+        pixels1[18] = (0,0,0)
+        pixels1[19] = (0,0,0)
+        pixels1[20] = (0,0,0)
+        pixels1[21] = (0,0,0)
+        pixels1[22] = (0,0,0)
+        pixels1[23] = (0,0,0)
+        pixels1[24] = (0,0,0)
+        pixels1[25] = (0,0,0)
+        pixels1[26] = (0,0,0)
+        pixels1[27] = (0,0,0)
+        pixels1[28] = (0,0,0)
+        pixels1[29] = (0,0,0)
+	       
+    if (pixels1)
     #led printout decision
     if hour >= 12:
         disphour -= 12
-        '''
-        pixels1[0] = (0, 0, 0)
-        pixels1[1] = (0, 0, 0)
-        pixels1[2] = (0, 0, 0)
-        pixels1[3] = (0, 0, 0)
-        pixels1[4] = (0, 0, 0)
-        pixels1[5] = (0, 0, 0)
-        pixels1[6] = (0, 0, 0)
-        pixels1[7] = (0, 0, 0)
-        pixels1[8] = (0, 0, 0)
-        pixels1[9] = (0, 0, 0)
-        pixels1[10] = (0, 0, 0)
-        pixels1[11] = (0, 0, 0)
-        pixels1[12] = (0, 0, 0)
-        pixels1[13] = (0, 0, 0)
-        pixels1[14] = (0, 0, 0)
-        pixels1[15] = (0, 0, 0)
-        pixels1[16] = (0, 0, 0)
-        pixels1[17] = (0, 0, 0)
-        pixels1[18] = (0, 0, 0)
-        pixels1[19] = (0, 0, 0)
-        pixels1[20] = (0, 0, 0)
-        pixels1[21] = (0, 0, 0)
-        pixels1[22] = (0, 0, 0)
-        pixels1[23] = (0, 0, 0)
-        pixels1[24] = (0, 0, 0)
-        pixels1[25] = (0, 0, 0)
-        pixels1[26] = (0, 0, 0)
-        pixels1[27] = (0, 0, 0)
-        pixels1[28] = (0, 0, 0)
-        pixels1[29] = (0, 0, 0)
-        '''
-        
-
+	    
         if disphour == 0:
             if mim < 3:
                 #displays 'it is twelve oclock'
